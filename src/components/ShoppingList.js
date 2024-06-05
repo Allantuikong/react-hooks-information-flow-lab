@@ -9,7 +9,7 @@ function ShoppingList({ items }) {
   }
 
   const itemsToDisplay = items.filter((item) => {
-    if (selectedCategory === "All") return true;
+    if (selectedCategory === "All") return true;  
 
     return item.category === selectedCategory;
   });
