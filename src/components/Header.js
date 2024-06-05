@@ -1,6 +1,6 @@
 import React from 'react';
 
-function header ( { onDarkModeClick, isDarkMode }) {
+function Header ( { onDarkModeClick, isDarkMode }) {
     return (
         <header>
             <h2>Shopster</h2>
@@ -11,4 +11,4 @@ function header ( { onDarkModeClick, isDarkMode }) {
     )
 }
 
-export default header
+export default Header
